@@ -1,0 +1,34 @@
+/* SystemHealthCheck styling on top of libadwaita. */
+.sp-card { padding: 14px 16px; }
+.compact-mode .sp-card { padding: 8px 10px; }
+.big-value { font-size: 1.9em; font-weight: 800; }
+.compact-mode .big-value { font-size: 1.4em; }
+.mono { font-family: monospace; }
+.badge { border-radius: 999px; padding: 1px 10px; font-weight: 700; font-size: 0.82em; }
+
+/* Status colors: green / yellow / orange / red / gray */
+.badge.status-good { background-color: alpha(#26a269, 0.18); color: #26a269; }
+.badge.status-attention { background-color: alpha(#c88800, 0.20); color: #b07800; }
+.badge.status-warning { background-color: alpha(#e66100, 0.20); color: #e66100; }
+.badge.status-critical { background-color: alpha(#e01b24, 0.20); color: #e01b24; }
+.badge.status-unknown { background-color: alpha(#888888, 0.20); color: #888888; }
+label.status-good { color: #26a269; }
+label.status-attention { color: #b07800; }
+label.status-warning { color: #e66100; }
+label.status-critical { color: #e01b24; }
+label.status-unknown { color: #888888; }
+
+progressbar.usage > trough { min-height: 8px; border-radius: 4px; }
+progressbar.usage > trough > progress { min-height: 8px; border-radius: 4px; }
+progressbar.status-good > trough > progress { background-color: #26a269; }
+progressbar.status-attention > trough > progress { background-color: #c88800; }
+progressbar.status-warning > trough > progress { background-color: #e66100; }
+progressbar.status-critical > trough > progress { background-color: #e01b24; }
+
+.statusbar { padding: 4px 12px; border-top: 1px solid alpha(currentColor, 0.12); }
+.score { font-size: 3.2em; font-weight: 800; }
+.chart { min-height: 60px; }
+.slot { padding: 10px; border-radius: 10px; border: 1px dashed alpha(currentColor, 0.3); }
+.slot.filled { border-style: solid; background-color: alpha(currentColor, 0.04); }
+columnview.data-table > listview > row > cell { padding: 3px 8px; }
+.terminal { font-family: monospace; }

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=SystemHealthCheck
+GenericName=System Diagnostics
+Comment=Linux Laptop Diagnostic & Performance Center
+Exec=SystemHealthCheck
+Icon=io.github.systemhealthcheck.SystemHealthCheck
+Terminal=false
+Categories=System;Monitor;GTK;
+Keywords=diagnostics;hardware;smart;nvme;sensors;battery;benchmark;stress;
+StartupNotify=true
