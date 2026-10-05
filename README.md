@@ -20,10 +20,13 @@ Rust · GTK4 · libadwaita · Cairo/Pango (charts and PDF) · SQLite (rusqlite) 
 
 ## Download
 
-Get the latest `.deb` from **[Releases](https://github.com/swaraj-shubh/SystemHealthCheck/releases/latest)** and install it:
+> ### 📦 [**Download the latest .deb from Releases**](https://github.com/swaraj-shubh/SystemHealthCheck/releases/latest)
+
+**Version 1 (v0.1.0), direct download:** [systemhealthcheck_0.1.0_amd64.deb](https://github.com/swaraj-shubh/SystemHealthCheck/releases/download/v0.1.0/systemhealthcheck_0.1.0_amd64.deb)
 
 ```sh
-sudo apt install ./systemhealthcheck_*_amd64.deb
+wget https://github.com/swaraj-shubh/SystemHealthCheck/releases/download/v0.1.0/systemhealthcheck_0.1.0_amd64.deb
+sudo apt install ./systemhealthcheck_0.1.0_amd64.deb
 SystemHealthCheck
 ```
 
