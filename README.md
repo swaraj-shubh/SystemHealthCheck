@@ -18,7 +18,18 @@
 
 Rust · GTK4 · libadwaita · Cairo/Pango (charts and PDF) · SQLite (rusqlite) · polkit/pkexec
 
-## Run
+## Download
+
+Get the latest `.deb` from **[Releases](https://github.com/swaraj-shubh/SystemHealthCheck/releases/latest)** and install it:
+
+```sh
+sudo apt install ./systemhealthcheck_*_amd64.deb
+SystemHealthCheck
+```
+
+Requires GTK ≥ 4.12 and libadwaita ≥ 1.6 (Kali Rolling, Debian 13, Ubuntu 25.04 or newer).
+
+## Build from source
 
 ```sh
 sudo apt install build-essential pkg-config libgtk-4-dev libadwaita-1-dev cargo
